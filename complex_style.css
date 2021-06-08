@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+table{
+    text-align: center;
+}
+
+.high{
+    height: 25px;
+}
+
+.header{
+    font-weight: bold;
+}
+
+.day{
+    text-align: left;
+}
+
+.yellow{
+    background-color: #ffffc9;
+}
+
+.purple{
+    background-color: #c7c3fe;
+}
+
+.green{
+    background-color: #c9ffc6;
+}
+

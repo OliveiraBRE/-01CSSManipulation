@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Tabela Complexa</title>
+        <link rel="stylesheet" href="complex_style.css" type="text/css">
+    </head>
+    <body>
+        <table border="4">
+            <tr class="header">
+               <td rowspan="3" width="75">Day</td>
+               <td colspan="3">Seminar</td>
+            </tr>
+            <tr class="header">
+                <td colspan="2" width="140">Schedule</td>
+                <td rowspan="2" width="200">Topic</td>
+            </tr>
+            <tr class="header">
+              <td width="70">Begin</td>
+              <td width="70">End</td>
+            </tr>
+            <tr>
+               <td rowspan="2" class="day">Monday</td>
+               <td rowspan="2" class="yellow">8:00 a.m.</td>
+               <td rowspan="2" class="purple">5:00 p.m.</td>
+               <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="6" class="day">Tuesday</td>
+                <td rowspan="2" class="yellow">8:00 a.m.</td>
+                <td rowspan="2" class="yellow">11:00 a.m.</td>
+                <td rowspan="3">XPath</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td rowspan="2" class="yellow">11:00 a.m.</td>
+                <td rowspan="2" class="green">2:00 p.m.</td>
+            </tr>
+             <tr>
+                <td rowspan="3">XSL Transformation</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="green">2:00 p.m.</td>
+                <td rowspan="2" class="purple">5:00 p.m.</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td class="day">Wednesday</td>
+                <td class="yellow">8:00 a.m.</td>
+                <td class="green">12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+                          
+        </table>
+    </body>
+</html>
